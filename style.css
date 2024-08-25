@@ -1,0 +1,193 @@
+/* Color and Background */
+.ink-blue {
+    color: #00244e;
+}
+
+.heritage {
+    color: #0a3370;
+}
+
+.bg-lightgray {
+    background-color: #EFEFEF !important;
+}
+
+.bg-primary {
+    background-color: #fdb913 !important;
+}
+
+/* Buttons */
+.btn {
+    padding: 0.6rem 0.9rem;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #fdb913;
+    border-color: #fdb913;
+    color: #0a3370;
+}
+
+.btn-primary:hover {
+    background-color: #fee097;
+    border-color: #fee097;
+    color: #0a3370;
+}
+
+.btn-secondary {
+    background-color: #0a3370;
+    border-color: #0a3370;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #0a3370;
+}
+
+/* Footer */
+footer {
+    background-color: #00244e;
+    color: #fff;
+}
+
+footer p,
+footer a {
+    color: #fff;
+}
+
+footer a {
+    font-size: 1rem;
+}
+
+footer .text-link {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Header */
+.navbar {
+    background-color: #5DACF0;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    border: #F0645D solid 3px;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Meet the New SNHU Term Names */
+.meet-div {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    /* background-image: url(./Assets/Pallete.png); */
+}
+
+
+
+.meet-div h1 {
+    margin: 0;
+    padding: 20px;
+    z-index: 2;
+}
+
+/* Main Section */
+.main {
+    background-image: 
+        url('./Assets/wave.svg'), /* SVG on top */
+        linear-gradient(to bottom, rgba(255, 255, 255, 0) 25rem, #fff 30rem); /* Gradient below */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.air-travel-img {
+    border: solid 3px #F0645D;
+    border-radius: 9px;
+}
+
+/* Limited Box */
+.limited-box {
+    display: flex;
+    background-color: #F0645D;
+    padding: 3px;
+    align-items: end;
+}
+
+/* Icons */
+.clock-icon1 {
+    width: 6%;
+}
+
+.clock-icon2 {
+    width: 8%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 576px) {
+    .mobile-btn-w {
+        width: 100%;
+        margin-bottom: 0.275rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .clock-icon1 {
+        display: none;
+    }
+
+    .clock-icon2 {
+        width: 15%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .discount {
+        background: linear-gradient(#fff 5rem, #2066a2 5rem);
+    }
+}
